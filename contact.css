@@ -1,0 +1,163 @@
+
+
+header
+{
+    background-color: darkblue;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: right;
+    align-items: flex-start;
+ }
+        
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links
+{
+    list-style: none;
+}  
+
+.nav_links li
+
+{
+display: inline-block;
+padding: 10px;
+margin: 10px;
+
+
+}
+.nav_links li a
+{
+    transition: all 0.3s ease 0s;
+}
+
+
+.nav_links a:hover
+{
+    color: blue;
+}
+
+h3
+
+{
+ color: black;
+text-align: center;
+margin: 40px;
+    
+}
+.container
+{
+display: flex;
+justify-content: space-between;
+
+}
+.container__box
+
+{
+    height: 300px;
+    width: 400px;
+    margin: 50px;
+   
+}
+
+.text__box
+
+{
+ 
+ text-align: center;
+ color: black;
+ font-style: italic;
+ word-spacing:2px;
+    
+}
+    body
+    {
+        background-color: beige;
+        
+    }
+
+    img
+    {
+        border-radius: 30%;
+    }
+
+body
+{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: cornflowerblue;
+    font-family: sans-serif Arial, Helvetica;
+}
+
+    .contact-title
+
+    {
+        color: black;
+        text-transform: uppercase;
+        transition: all 4s ease-in-out;
+    }
+    .contact-title h1
+    {
+        font-size: 20px;
+        line-height: 10px;
+        color: white;
+
+    }
+
+    .contact-title h2
+
+    {
+        font-size: 12px;
+        color: white;
+    }
+form
+
+{
+
+    transition: all 4s ease-in-out;
+}
+
+.form-control
+
+{
+    width: 600px;
+    height: 20px;;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+input
+
+{
+    height: 45px;
+}
+ 
+footer
+    {
+        width: 100%;
+        height: 50px;
+        padding: 10px 10px;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button
+
+    {
+        background-color: orange;
+        font-size: 20px;
+        margin-top: 20px;
+    }
