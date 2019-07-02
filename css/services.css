@@ -1,50 +1,5 @@
 
 
-header
-{
-    background-color: darkblue;
-    padding: 0%;
-    margin-bottom: 40px;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
- }
-        
-
-a
-{
-    text-decoration: none;
-    color: white;
-}
-
-.nav_links
-{
-    list-style: none;
-}  
-
-.nav_links li
-
-{
-display: inline-block;
-padding: 10px;
-margin: 10px;
-list-style: none;
-
-}
-
-.nav_links li a
-{
-    transition: all 0.3s ease 0s;
-}
-
-
-.nav_links a:hover
-{
-    color: blue;
-}
-
 h3
 
 {
@@ -82,7 +37,9 @@ margin: 40px;
 
 {
     width: 400px;
+    color: brown;
 }
+
 
 .pics__text2
 
@@ -114,14 +71,6 @@ margin: 40px;
     border-radius: 10px;
     }
 
-    .logo
-
-    {
-        height: 80px;
-        width: 100px;
-        margin-left: 40px;
-        
-    }
     footer
     {
         width: 100%;
@@ -143,8 +92,6 @@ margin: 40px;
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
-       
-
        
    }
     }

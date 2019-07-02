@@ -7,11 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Mon site</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>contact</title>
 </head>
 
 <body>
+
+
 
     <header>
         <img class="logo" src=" images/spa__logo.png" alt="">
@@ -27,20 +29,29 @@
         </nav>
     </header>
     <main>
-        <h3>Bienvenue au Spalace</h3>
-        <div class="text__box text__box--presentation">
-            <p>Le Spalace vous accueille au coeur des Hauts de France dans un cadre d'exception.</p>
+        <div class="contact-title">
+            <h1>Nous contacter</h1>
+            <h2>Nous serons ravis de vous répondre dans les plus brefs délais</h2>
         </div>
-        <div class="container">
-            <img class="container__box" src="images/jacuzzi.jpg" alt="Jacuzzi">
-            <img class="container__box" src="images/lit.jpg" alt="Lit">
-            <img class="container__box" src="images/petitdej.jpg" alt="Petitdej">
+        <div class="contact-form">
+
+            <form action="contact__action">
+                <input class="form-control " name=name type="text" placeholder="Votre nom"><br>
+                <input class="form-control " name=email type="text" placeholder="Votre email"><br>
+                <input class="form-control " name=téléphone type="text" placeholder="Numéro de téléphone"><br>
+                <textarea class="form control" name="Votre message" id="" cols="60" rows="10"
+                    placeholder=Message></textarea><br>
+                <input class="button" type="submit" value="Envoyer">
+
+            </form>
 
         </div>
+
     </main>
 
+
     <footer>
-        <p>Le Spalace 100 bis avenue de la verrerie 62410 Wingles.</p>
+        Le Spalace 100 bis avenue de la verrerie 62410 Wingles.
     </footer>
 
 </body>

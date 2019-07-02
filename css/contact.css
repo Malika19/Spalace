@@ -1,49 +1,6 @@
 
 
-header
-{
-    background-color: darkblue;
-    padding: 0%;
-    margin: 0%;
-    width: 100%;
-    height: 90px;
-    display: flex;
-    justify-content: space-between;
-    justify-content: right;
-    align-items: flex-start;
- }
-        
 
-a
-{
-    text-decoration: none;
-    color: white;
-}
-
-.nav_links
-{
-    list-style: none;
-}  
-
-.nav_links li
-
-{
-display: inline-block;
-padding: 10px;
-margin: 10px;
-
-
-}
-.nav_links li a
-{
-    transition: all 0.3s ease 0s;
-}
-
-
-.nav_links a:hover
-{
-    color: blue;
-}
 
 h3
 
@@ -161,3 +118,18 @@ footer
         font-size: 20px;
         margin-top: 20px;
     }
+
+    @media (min-width:748px) and (max-width:1024px)
+
+    {
+        .container
+   {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       
+
+       
+   }
+    }
+
