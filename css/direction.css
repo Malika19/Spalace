@@ -1,0 +1,87 @@
+
+header
+{
+    background-color: darkblue;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+ }
+        
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links
+{
+    list-style: none;
+}  
+
+.nav_links li
+
+{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    
+    
+    }
+    .nav_links li a
+    {
+        transition: all 0.3s ease 0s;
+    }
+    
+    
+    .nav_links a:hover
+    {
+        color: blue;
+    }
+    
+
+.container
+{
+   
+   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+
+    }
+
+.map
+
+{
+    height: 600px;
+    width: 300px;
+    margin-top: 80px;
+   
+}
+
+.direction
+
+{
+    height: 300px;
+    width: 400px;
+    color: blue;
+    font-style: italic;
+    line-height: 30px;
+    color: brown;
+}
+
+body
+
+{
+    background-color: beige;
+}

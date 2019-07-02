@@ -9,6 +9,7 @@ header
     height: 90px;
     display: flex;
     justify-content: space-between;
+    
     align-items: center;
  }
         
@@ -74,6 +75,7 @@ body
      color: blue;
      font-weight: bold;
      height: 100px;
+     font-style: italic;
      
      
      }
@@ -85,6 +87,13 @@ body
      width: 100px;
      margin-left: 40px;
      
+ }
+
+ .facebook
+
+ {
+    height: 80px;
+    width: 100px;
  }
 img
 {
