@@ -1,14 +1,4 @@
 
-
-h3
-
-{
- color: black;
-text-align: center;
-margin: 40px;
- 
-}
-
 .container
 
 {
@@ -30,16 +20,27 @@ margin: 40px;
 {
     height: 300px;
     width: 400px;
-    margin: 50px;
+
    
+}
+
+h4
+
+{
+    color: black;
 }
 .pics__text1
 
 {
     width: 400px;
     color: brown;
-}
 
+}
+.text__jacuzzi
+
+{
+    line-height: 30px;
+}
 
 .pics__text2
 
@@ -47,11 +48,26 @@ margin: 40px;
     width: 400px;
 }
 
+.text__accomodation
+
+{
+    color: brown;
+    line-height: 30px;
+}
+
 .pics__text3
 
 {
 
     width: 400px;
+}
+
+.text__breakfast
+
+{
+
+    color: brown;
+    line-height: 30px;
 }
 .text__box
 
@@ -69,6 +85,7 @@ margin: 40px;
     height: 200px;
     width: 400px;
     border-radius: 10px;
+    margin-top: 30px;
     }
 
     footer
