@@ -1,8 +1,5 @@
+.container {
 
-.container
-
-{
-   
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -15,101 +12,71 @@
 }
 
 
-.container__pics
-
-{
+.pics {
     height: 300px;
     width: 400px;
-
-   
+    border-radius: 5px;
+    margin-top: 40px;
 }
 
-h4
 
-{
+
+h4 {
     color: black;
 }
-.pics__text1
 
-{
+.pics__text1 {
     width: 400px;
-    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.text__jacuzzi
 
-{
+.text__jacuzzi {
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.pics__text2
-
-{
+.pics__text2 {
     width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.text__accomodation
+.text__accomodation {
 
-{
-    color: brown;
     line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.pics__text3
-
-{
+.pics__text3 {
 
     width: 400px;
 }
 
-.text__breakfast
+.text__breakfast {
 
-{
-
-    color: brown;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
-}
-.text__box
-
-{
- 
- text-align: center;
- color: black;
- font-style: italic;
- word-spacing:2px;
-    
+    font-weight: alegrya;
 }
 
-    img
-    {
-    height: 200px;
-    width: 400px;
-    border-radius: 10px;
-    margin-top: 30px;
-    }
 
-    footer
-    {
-        width: 100%;
-        height: 50px;
-        padding: 10px 10px;
-        background-color: grey;
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+
+@media (min-width:748px) and (max-width:1024px) {
+    .container {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
-        margin-top: 50px;
-        
+
     }
-
-
-@media (min-width:748px) and (max-width:1024px)
-
-    {
-        .container
-   {
-       display: flex;
-       flex-wrap: wrap;
-       justify-content: center;
-       
-   }
-    }
-
+}
